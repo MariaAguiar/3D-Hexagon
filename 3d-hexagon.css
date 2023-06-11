@@ -1,0 +1,28 @@
+/* CSS Document */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #ffffd9;
+  letter-spacing: 0.35px;
+  font-size: 1.2em;
+  background-color: rgba(45, 46, 48, 0.9);
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  margin-left: -360px;
+  width: 720px;
+  top: 50%;
+  height: 500px;
+  margin-top: -250px;
+}
+
+#p1, #p2 {
+  transform-origin: center center;
+  transition: transform 1s;
+}
+
+/*# sourceMappingURL=photogr3.css.map */
